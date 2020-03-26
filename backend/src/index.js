@@ -1,5 +1,5 @@
 const express = require('express');
-const cors = require('cors'); 5.2K (gzipped: 2.1K)
+const cors = require('cors'); 
 const routes = require('./routes');
 
 const app = express();

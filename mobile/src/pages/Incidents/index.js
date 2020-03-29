@@ -32,7 +32,7 @@ export default function Incidents() {
         setLoading(true);
 
         const response = await api.get('incidents', {
-            parms: {page}
+            params: {page}
         });
 
         setIncidents([...incidents, ...response.data]);
